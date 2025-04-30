@@ -1,4 +1,3 @@
-
 from rich.panel import Panel
 from rich.text import Text
 from rich.console import Console
@@ -350,7 +349,7 @@ def create_layout(user_data):
     )
 
     layout["body"]["left"]["toolbox"].update(
-    Panel(toolbox_content, title="🌐 Toolbox", border_style="bright_magenta",padding=(0, 0), width=150)
+    Panel(toolbox_content, title="🌐 Toolbox", border_style="bright_magenta",padding=(0, 0))
 )
     
 
