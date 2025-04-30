@@ -349,7 +349,7 @@ def create_layout(user_data):
     )
 
     layout["body"]["left"]["toolbox"].update(
-    Panel(toolbox_content, title="🌐 Toolbox", border_style="bright_magenta",padding=(0, 0))
+    Panel(toolbox_content, title="🌐 Toolbox", border_style="bright_magenta")
 )
     
 
